@@ -1,0 +1,12 @@
+Package: MSSI
+Type: Package
+Title: Work in Progress
+Version: 0.1.0
+Author: anooshpoorian
+Maintainer: Anoosh Poorian <anoosh.poorian@mail.mcgill.ca>
+Description: Package for MSSI workshop researchers to easily and quickly access all necessary tools and data. 
+Depends: R (>= 3.5.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: osmdata, dodgr, reticulate, spocc, cancensus
