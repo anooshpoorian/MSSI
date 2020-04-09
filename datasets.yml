@@ -1,0 +1,10 @@
+..generic:
+  git2rdata: 0.2.1
+  optimize: yes
+  NA string: NA
+  hash: e63e0bc4774a6b18bf2475d8b210524fdf7d9945
+  data_hash: d313c8f3e6dedd0963f8c7579b213f70dd1902fe
+dataset:
+  class: character
+description:
+  class: character
