@@ -15,9 +15,10 @@ options(repos='http://cran.rstudio.com/')
 #install.packages("git2rdata")
 #install.packages("git2r")
 #install.packages("remote")
+#install.packages("tidyverse")
 
-#library(devtools)
-#install_github("anooshpoorian/MSSI")
+library(devtools)
+install_github("anooshpoorian/SUSDeveloper")
 #use_readme_rmd(open = rlang::is_interactive())
 
 
