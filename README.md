@@ -1,37 +1,39 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# MSSI
+# SUSDeveloper
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-The goal of MSSI package is to provide package dcependencies and
+The goal of SUSDeveloper package is to provide package dcependencies and
 datasets to MSSI researchers.
 
-The packages dependencies currently included in the MSSI package are:  
+The packages dependencies currently included in the SUSDeveloper package
+are:  
   
 \- cancensus  
 \- dodgr  
 \- osmdata  
 \- reticulate  
-\- spocc  
+\-
+spocc  
 
 ## Installation
 
-You can install the released version of MSSI from
-[CRAN](https://CRAN.R-project.org) with:
+<!-- You can install the released version of SUSDeveloper from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
 install.packages("MSSI")
-```
+``` -->
 
-And the development version from [GitHub](https://github.com/) with:
+You can install the development version of SUSDeveloper from
+[GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("anooshpoorian/MSSI")
+devtools::install_github("anooshpoorian/SUSDeveloper")
 ```
 
 ## Example
