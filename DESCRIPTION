@@ -9,4 +9,4 @@ Depends: R (>= 3.5.0)
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Imports: osmdata, dodgr, reticulate, spocc, cancensus
+Imports: osmdata, dodgr, reticulate, spocc, cancensus, git2r, git2rdata
