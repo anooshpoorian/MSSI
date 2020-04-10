@@ -13,7 +13,7 @@ data_upload <- function(obj, name){
   system("git init")
   system("git remote rm origin")
   system("git remote add origin https://github.com/anooshpoorian/SUSDeveloper.git")
-  system("git pull origin")
+  system("git pull origin master")
   filename <- paste(name,".rds", sep = "")
   saveRDS(obj, filename)
   addmsg <- paste("git add ", filename)
