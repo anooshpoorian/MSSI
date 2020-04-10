@@ -1,5 +1,5 @@
 data_upload <- function(df, name){
-  system("git init"),
+  system("git init")
   repo <- repository(".git/")
   system("git remote rm origin")
   system("git remote add origin https://github.com/anooshpoorian/SUSDeveloper.git")
