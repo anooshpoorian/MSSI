@@ -14,6 +14,7 @@ data_upload <- function(obj, name){
   system("git remote rm origin")
   system("git remote add origin https://github.com/anooshpoorian/SUSDeveloper.git")
   saveRDS(obj, name + ".rds")
-  commit(repo, "data uploaded")
+  system("git add " + name ".rds")
+  system("git commit -m \"data added\"")
   system("git push -u origin master")
 }
