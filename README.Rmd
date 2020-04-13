@@ -42,6 +42,15 @@ You can install the development version of SUSDeveloper from [GitHub](https://gi
 # install.packages("devtools")
 devtools::install_github("anooshpoorian/SUSDeveloper")
 ```
+
+## Usage
+
+You can begin using the package by displaying all the data available to you via the display_dataset_list() function, which will report all the datasets available to you through the package.
+
+Additionally, in order to save data combinations and queries, you can use save objects to the cloud using the data_upload(obj, name) function. Anyone is then able to retrieve this object using the data_retrieve(name) function. 
+
+You can also add any data you upload to the master dataset list through the update_datalist(name, description) function. 
+
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
