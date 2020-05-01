@@ -1,4 +1,8 @@
+
+
 data_upload_dataframe <- function(df, name){
+  library(git2r)
+  library(git2rdata)
   system("git init")
   repo <- repository(".git/")
   system("git remote rm origin")
@@ -10,6 +14,7 @@ data_upload_dataframe <- function(df, name){
 }
 
 data_upload <- function(obj, name){
+
   system("git init")
   system("git remote rm origin")
   system("git remote add origin https://github.com/anooshpoorian/SUSDeveloper.git")

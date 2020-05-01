@@ -16,6 +16,8 @@ options(repos='http://cran.rstudio.com/')
 #install.packages("git2r")
 #install.packages("remote")
 #install.packages("tidyverse")
+#install.packages("geodist")
+#install.package("tmap")
 
 #library(devtools)
 #install_github("anooshpoorian/SUSDeveloper")

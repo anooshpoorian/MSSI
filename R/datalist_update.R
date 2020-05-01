@@ -1,8 +1,9 @@
-library(cancensus)
-library(git2rdata)
-library(git2r)
+
 
 upload_cancensus_list <- function(){
+  library(cancensus)
+  library(git2r)
+  library(git2rdata)
   system("git init")
   repo <- repository(".git/")
   system("git remote rm origin")
@@ -16,6 +17,8 @@ upload_cancensus_list <- function(){
 }
 
 update_datalist <- function(name, description){
+  library(git2r)
+  library(git2rdata)
   system("git init")
   repo <- repository(".git/")
   system("git remote rm origin")
